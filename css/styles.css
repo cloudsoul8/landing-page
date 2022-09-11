@@ -16,6 +16,12 @@ header {
     padding: 0px 192px;
     background-color: #1F2937;
     /* background-color: gray; */
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
 }
 
 footer {
@@ -23,6 +29,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     color: #f9faf8;
     font-size: 12px;
@@ -57,6 +64,8 @@ ul {
 }
 
 .hero-container {
+    padding-top: 72px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,3 +204,11 @@ ul {
     font-size: 16px;
     color: #f9faf8;
 }
+
+.anchor {
+    display: block;
+    height: 64px;
+    margin-top: 64px;
+    visibility: hidden;
+}
+  
